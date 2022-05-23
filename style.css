@@ -12,23 +12,18 @@
     height: 150px;
     background-color: green;
     width: 900px;
-    margin:20px;
+    margin: 20px;
     display: block;
     padding: 5px;
-    
-    
-    
-    
-
 }
 
 .side-nav {
     height: 285px;
-    width:200px;
+    width: 200px;
     background-color: blue;
     margin: 10px;
-    float: left;
     margin-left: 20px;
+    display: inline-block;
 }
 
 .main {
@@ -36,24 +31,24 @@
     width: 675px;
     background-color: red;
     margin: 10px;
-    float: right;
-    display: block;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding-right: 15px;
+    display: inline-block;
+    /* margin-right: 20px; */
+    /* margin-bottom: 20px; */
+    /* padding-right: 15px; */
+    vertical-align: top;
 }
 
 .sub-content {
     height: 200px;
     width: 200px;
     background-color: yellow;
-    margin:0px;
+    margin: 0px;
     float: right;
     display: inline;
     margin: 10px;
     margin-right: 20px;
     margin-left: 0px;
-    
+
 }
 
 #advertisement {
